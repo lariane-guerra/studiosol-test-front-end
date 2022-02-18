@@ -1,0 +1,23 @@
+
+/*-RESETANDO AS CONFIGURAÇÕES DOS NAVEGADORES*/
+*{
+    margin: 0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+
+/*-FONTE PARA O TEXTO-*/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+
+/*-ESTILIZANDO O HEADER-*/
+.tittle{
+    font-family: 'Montserrat', sans-serif;
+    background-image: linear-gradient(rgba(239, 108, 0, 1),rgba(219, 99, 0, 1));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 32px;
+    text-align: center;
+    font-weight: 700;
+    margin-top: 44px;
+}
